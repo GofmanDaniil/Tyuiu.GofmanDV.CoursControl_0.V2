@@ -11,9 +11,9 @@
 class Service : public ISprint0Task8V2
 {
 	int j = 2;
-	virtual float Rezultat(int x, int y, int z) override
+	virtual int Rezultat(int x, int y, int z) override
 	{
-		return sqrt((x + y - z) / (pow(x,j) + 2));
+		return (((x + y) - z) / (pow(x,j) + 2));
 	}
 
 };
